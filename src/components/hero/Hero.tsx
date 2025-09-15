@@ -1,7 +1,6 @@
 import React from "react";
 import { MoveLeft } from "lucide-react";
 const Hero = () => {
-
   return (
     <>
       <div
@@ -9,12 +8,10 @@ const Hero = () => {
         className="bg-[url('/hero-pattern.png')] bg-cover bg-right pb-56 sm:pb-96 md:pb-44 lg:pb-72 xl:pb-96 pt-32 sm:pt-60"
         dir="rtl"
       >
-        
         <div
           id="textsContainer"
           className="bg-re-200 md:w-7/12 lg:w-4/12 xl:2/12 md:mr-20 lg:mr-40 p-8 "
           data-aos="fade-up"
-
         >
           <h1
             id="heroTitle"
@@ -32,7 +29,7 @@ const Hero = () => {
               href="#"
               className="flex items-end p-4 font-semibold rounded-xl bg-gradient-to-l duration-1000 from-[#ddc157] to-[#78682f] text-black text-lg hover:bg-gradient-to-l hover:from-[#a07f3b] hover:to-[#a07f3b] "
             >
-تجربه نسخه آزمایشی              <MoveLeft className="mr-2" />
+              تجربه نسخه آزمایشی <MoveLeft className="mr-2" />
             </a>
           </div>
         </div>

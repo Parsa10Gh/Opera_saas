@@ -1,4 +1,4 @@
-import ForgetPass from '@/components/forgetPass/ForgetPass'
+import ForgetPass from '@/components/forgetpass/ForgetPass'
 import React from 'react'
 
 const page = () => {

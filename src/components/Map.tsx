@@ -19,7 +19,10 @@ const customIcon = new L.Icon({
 });
 
 const Map = () => {
-  const position = [35.770441, 51.455009]; 
+  interface CenterType{
+    position : number[]
+  }
+  const position: [number, number] = [35.770441, 51.455009]; 
 // it's not the exact location
   return (
     <MapContainer center={position} zoom={15} className="h-96 w-full rounded-t-3xl">

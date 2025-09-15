@@ -8,15 +8,14 @@ import { Autoplay } from "swiper/modules";
 
 const ImageCarousel: FC = () => {
   return (
-    <div id="customers-section"           data-aos="fade-up"
->
+    <div id="customers-section" data-aos="fade-up">
       <h1
         id="title"
         className="text-3xl w-fit text-gray-800 font-semibold border-b-2 pt-6 pb-2 mx-auto md:mr-20 mt-20 mb-10"
       >
         مشتریان
       </h1>
-      <div  className="relative mx-auto p-4 bg-opacity-30 backdrop-blur-lg border-[rgba(255,255,255,0.2)]   bg-[rgba(255,255,255,0.1)]   rounded-lg shadow-lg w-full mt-10">
+      <div className="relative mx-auto p-4 bg-opacity-30 backdrop-blur-lg border-[rgba(255,255,255,0.2)]   bg-[rgba(255,255,255,0.1)]   rounded-lg shadow-lg w-full mt-10">
         <Swiper
           modules={[Autoplay]}
           spaceBetween={20}
@@ -52,7 +51,11 @@ const ImageCarousel: FC = () => {
           }}
         >
           <SwiperSlide className="flex justify-center items-center">
-            <img src="/image 13.svg" alt="Image 1" className="w-[177px] h-[146px]" />
+            <img
+              src="/image 13.svg"
+              alt="Image 1"
+              className="w-[177px] h-[146px]"
+            />
           </SwiperSlide>
           <SwiperSlide className="flex justify-center items-center">
             <img
@@ -63,25 +66,29 @@ const ImageCarousel: FC = () => {
           </SwiperSlide>
           <SwiperSlide className="flex justify-center items-center">
             <img
- src="/image 16.svg"              alt="Image 3"
+              src="/image 16.svg"
+              alt="Image 3"
               className="w-[177px] h-[146px]"
             />
           </SwiperSlide>
           <SwiperSlide className="flex justify-center items-center">
             <img
- src="/image 17.svg"              alt="Image 4"
+              src="/image 17.svg"
+              alt="Image 4"
               className="w-[177px] h-[146px]"
             />
           </SwiperSlide>
           <SwiperSlide className="flex justify-center items-center">
             <img
- src="/image 19.svg"              alt="Image 5"
+              src="/image 19.svg"
+              alt="Image 5"
               className="w-[177px] h-[146px]"
             />
           </SwiperSlide>
           <SwiperSlide className="flex justify-center items-center">
             <img
- src="/image 20.svg"              alt="Image 6"
+              src="/image 20.svg"
+              alt="Image 6"
               className="w-[177px] h-[146px]"
             />
           </SwiperSlide>

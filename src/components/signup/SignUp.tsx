@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
 import { CircleUserRound, Eye, EyeOff, Lock, Mail, X } from "lucide-react";
-import { useRouter, usePathname } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useToast } from "@/components/ui/use-toast";
 import axios from "axios";
 import {
@@ -38,7 +38,6 @@ import {
 import { AppDispatch } from "../../store/store";
 import { useDispatch, useSelector } from "react-redux";
 import { Label } from "../ui/label";
-import Footer from "../footer/Footer";
 
 const SignUp = () => {
   const dispatch = useDispatch<AppDispatch>();
