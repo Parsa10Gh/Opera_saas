@@ -26,7 +26,7 @@ import {
   InputOTPSeparator,
   InputOTPSlot,
 } from "@/components/ui/input-otp";
-import ConfirmPassword from "@/components/forgetPass/ConfirmPassword ";
+import ConfirmPassword from "@/components/forgetpass/ConfirmPassword ";
 const ForgetPass = () => {
   const dispatch = useDispatch<AppDispatch>();
   // const email = useSelector(selectEmail); // Extract the email from the store
