@@ -7,7 +7,7 @@ const AboutUsVideo = () => {
       <div className="pb-16" dir="rtl">
         <h2 className="w-fit text-white text-xl sm:text-3xl border-b-2 pb-2"data-aos="fade-up">درباره ما</h2>
       </div>
-      <video controls className="w-full border-2 border-gray-300 rounded-lg" data-aos="fade-left">
+      <video controls className="w-full h-96 border-2 border-gray-300 rounded-lg">
         <source src="" type="video/mp4" />
         Your browser does not support the video tag.
       </video>

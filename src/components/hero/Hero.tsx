@@ -11,7 +11,6 @@ const Hero = () => {
         <div
           id="textsContainer"
           className="bg-re-200 md:w-7/12 lg:w-4/12 xl:2/12 md:mr-20 lg:mr-40 p-8 "
-          data-aos="fade-up"
         >
           <h1
             id="heroTitle"
@@ -23,7 +22,11 @@ const Hero = () => {
             سرویس ها و محصولات مبتنی بر هوش مصنوعی در مراکز تماس و ارتباط با
             مشتریان
           </h3>
-          <div id="buttonContainer" className="flex justify-end ml-8 py-12">
+          <div
+            id="buttonContainer"
+            className="flex justify-end ml-8 py-12"
+            data-aos="fade-up"
+          >
             <a
               id="linkToSeeProducts"
               href="#"
