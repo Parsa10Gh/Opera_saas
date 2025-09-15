@@ -14,13 +14,11 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { RsetLoggedIn } from "@/slices/NavbarSlices";
 import { useDispatch } from "react-redux";
-import { Router } from "lucide-react";
-import { useRouter } from "next/router";
+
 import Link from "next/link";
 
 const DropDownMenu = () => {

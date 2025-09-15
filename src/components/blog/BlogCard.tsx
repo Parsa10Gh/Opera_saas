@@ -52,7 +52,7 @@ const BlogCard: FC<BlogCardProps> = ({
         dir="rtl"
         style={{ height: "100%", position: "relative" }}
       >
-        <div className="flex flex-col flex-grow">
+        <div className="flex pb-4 flex-col flex-grow">
           <h2
             className={`font-bold mb-2 transition-all duration-300 ${
               isActive
@@ -60,7 +60,7 @@ const BlogCard: FC<BlogCardProps> = ({
                 : "text-lg md:text-xl text-[#D6B023]"
             }`}
           >
-            <Link href={`/blogpages/${id}`}>{subtitle}</Link>{" "}
+            <Link href={`/blogpages/${id}`}>{subtitle}</Link>
             {/* <-- Update the href */}
           </h2>
           <p

@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <div
       id="container"
-      className="flex flex-col md:flex items-center bg-[#333] text-white  xl:rounded-[100px] md:rounded-[60px] rounded-3xl md:mx-20 mx-10 mb-8 "
+      className="flex flex-col md:flex items-center bg-[#333] text-white  xl:rounded-[100px] md:rounded-[60px] rounded-3xl md:mx-20 mx-4 sm:mx-10 mb-8 "
       data-aos="fade-up"
     >
       <div
@@ -35,11 +35,8 @@ const Footer = () => {
               className="xl:size-6 md:size-4 size-5 ml-2"
             />
           </div>
-          <div
-            id="pictures"
-            className=" flex-1 xl:pb-20 md:pb-10 sm:pb-5"
-          >
-          {/* 2pictures */}
+          <div id="pictures" className=" flex-1 xl:pb-20 md:pb-10 sm:pb-5">
+            {/* 2pictures */}
           </div>
         </div>
         <div
@@ -85,7 +82,7 @@ const Footer = () => {
               className=" xl:mt-[-40px] xl:size-28 md:size-14 md:mt-[-20px] size-8 mt-[-7px]"
             />
           </div>
-          <p className="text-sm xl:text-sm text-[#979595] leading-relaxed lg:text-right text-center'">
+          <p className="text-sm xl:text-sm px-3 text-[#979595] leading-relaxed lg:text-right text-center'">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
             استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
@@ -96,16 +93,11 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div id="bottom" className="flex-1 flex text-xs items-center ">
-        <p>
-          . تمامی حقوق مادی و معنوی این وبسایت برای مجموعه
-          <span className="text-[#552E87]"> اپرا</span> محفوظ است
+      <div id="bottom" className="flex text-xs justify-center items-center ">
+        <p dir="rtl" className="p-3 text-center">
+          تمامی حقوق مادی و معنوی این وبسایت برای مجموعه
+          <span className="text-[#6b40a3]"> اپرا</span> محفوظ است
         </p>
-        <img
-          src="/Group 2483.svg"
-          alt=""
-          className="xl:ml-2 xl:mt-2 xl:size-10 md:size-5 size-3 mt-1"
-        />
       </div>
     </div>
   );

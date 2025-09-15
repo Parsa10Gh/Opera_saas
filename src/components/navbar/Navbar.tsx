@@ -36,7 +36,7 @@ const Navbar = () => {
       className="max-w-[1920px] absolute right-0 left-0 flex w-[95%] lg:h-24 md:h-20 sm:h-18 h-14 text-white justify-center bg-gradient-to-l from-[#552E87]/10 to-black/30 shadow-xl items-center rounded-xl z-50 px-4 mx-auto"
       style={{
         background:
-          "linear-gradient(90.02deg, #000000 -8.68%, #552E87 105.83%)",
+          "linear-gradient(90.02deg, #111111 -8.68%, #552E87 105.83%)",
         boxShadow: "0px 5px 42.6px 9px rgba(0, 0, 0, 1.36)",
       }}
       //box-shadow: 0px 5px 42.6px 9px rgba(0, 0, 0, 0.36);
