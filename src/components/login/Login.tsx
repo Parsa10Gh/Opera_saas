@@ -79,7 +79,7 @@ const Login = () => {
         router.push("/");
       } else {
         toast({
-          description: "نام کاربری یا رمز عبور اشتباه است !",
+          description: "نام کاربری یا رمز   عبور اشتباه است !",
           variant: "destructive",
         });
         console.log("wrong username or password!");

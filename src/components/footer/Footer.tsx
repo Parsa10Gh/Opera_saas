@@ -37,9 +37,9 @@ const Footer = () => {
           </div>
           <div
             id="pictures"
-            className="bg-red-300 flex-1 xl:pb-20 md:pb-10 sm:pb-5"
+            className=" flex-1 xl:pb-20 md:pb-10 sm:pb-5"
           >
-            2pictures
+          {/* 2pictures */}
           </div>
         </div>
         <div
