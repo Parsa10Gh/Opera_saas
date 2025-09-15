@@ -319,6 +319,7 @@ const SignUp = () => {
                   <div
                     id={i === 0 ? "firstNameInput" : "lastNameInput"}
                     className="w-full h-16 flex px-2 mx-1 bg-zinc-800 rounded-3xl"
+                    key={i}
                   >
                     <div
                       id={i === 0 ? "firstNameIcon" : "lastNameIcon"}
@@ -359,6 +360,7 @@ const SignUp = () => {
                   <div
                     id={i===0? "userNameInput": "emailInput"}
                     className="h-16 flex my-2 px-2 mx-auto bg-zinc-800 rounded-3xl"
+                    key={i}
                   >
                     <div id={i===0? "userIconContainer": "emailIconContainer"} className="w-1/12 my-auto h-3/6">
                       {i===0?<CircleUserRound className="h-full w-full text-violet-700" />:<Mail className="h-full w-full text-violet-700" />}

@@ -26,7 +26,7 @@ const BlogPages: React.FC<inf> = ({id}) => {
     <div>
       <Navbar />
       {blogPosts.map(
-        (content : BlogPost, i:number) => i == id - 1 && <BlogPage blogPost={content}/>
+        (content : BlogPost, i:number) => i == id - 1 && <BlogPage key={i} blogPost={content}/>
       )}
     </div>
   );
