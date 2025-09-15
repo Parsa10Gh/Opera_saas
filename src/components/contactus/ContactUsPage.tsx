@@ -2,9 +2,10 @@ import dynamic from "next/dynamic";
 import React from "react";
 import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
-import Map from "../Map";
 
 const ContactUsMain = dynamic(() => import("./ContactUsMain"), { ssr: false });
+const Map = dynamic(() => import("../Map"), { ssr: false });
+
 
 const ContactUsPage = () => {
   return (
