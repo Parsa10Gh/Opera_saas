@@ -1,8 +1,11 @@
+import dynamic from "next/dynamic";
 import React from "react";
-import ContactUsMain from "./ContactUsMain";
 import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
 import Map from "../Map";
+
+const ContactUsMain = dynamic(() => import("./ContactUsMain"), { ssr: false });
+
 const ContactUsPage = () => {
   return (
     <div
@@ -34,11 +37,10 @@ const ContactUsPage = () => {
             </div>
             {/* when we use map rounded doesnt apply because of the map     */}
             <div className="py-8">
-
               <div className="flex-2 flex items-center px-2 md:text-base text-sm rounded-b-full ">
                 <p className="flex-12 text-right lg:pt-0 pt-4">
-                  دفتر مرکزی: تهران، پاسداران، محله دروس، خیابان میربلوکی، پلاک 9،
-                  واحد 101 دپارتمان فنی: تهران، دانشگاه علم و صنعت، ساختمان
+                  دفتر مرکزی: تهران، پاسداران، محله دروس، خیابان میربلوکی، پلاک
+                  9، واحد 101 دپارتمان فنی: تهران، دانشگاه علم و صنعت، ساختمان
                   دانشکده برق، طبقه 2، دفتر شتاب دهنده هوش مصنوعی گشتاسپ
                 </p>
                 <img
