@@ -290,7 +290,7 @@ const SignUp = () => {
             <div id="inputsContainer" className="px-2 sm:px-8 lg:px-12 xl:px-20 2xl:px-32 pt-2 pb-16">
               <div id="genderContainer" className="flex px-2 mx-auto rounded-3xl">
                 {genders.map((gen,i) => (
-                  <Label className="w-fit flex items-center">
+                  <Label className="w-fit flex items-center" key={i}>
                     {gen}
                     <Input
                       name="gender"
@@ -388,6 +388,7 @@ const SignUp = () => {
                   <div
                     id={i===0?"passInput" : "passConfirmInput"}
                     className="h-16 flex mx-auto my-2 px-2 pl-4 rounded-3xl bg-zinc-800"
+                    key={i}
                   >
                     <div
                       id={i===0? "passIconContainer" : "passConfirmIconContainer"}
